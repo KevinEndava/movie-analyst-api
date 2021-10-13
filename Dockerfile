@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm install
 RUN npm install express express-jwt auth0-api-jwt-rsa-validation --save
 
-ENV DB_HOST=10.38.128.3
+
 ENV PORT=8000
 
 # Bundle app source

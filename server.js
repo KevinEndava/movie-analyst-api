@@ -65,5 +65,5 @@ app.get('/', function (req, res) {
 })
 
 console.log('server listening through port: ' + process.env.PORT)
-app.listen(process.env.PORT || 3000)
+app.listen(process.env.PORT || 8000)
 module.exports = app
